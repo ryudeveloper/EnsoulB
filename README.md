@@ -1,6 +1,6 @@
 # Ensoulsharp.Ryusung
-<a href="https://www.buymeacoffee.com/GyFtd43bs" target="_blank">Buy Me A Coffee</a>   
-Any feedback you can send to me in facebook https://www.facebook.com/YTS.1996
+<a href="https://www.buymeacoffee.com/PrS9HUT" target="_blank">Buy Me A Coffee</a>   
+Any feedback you can send to me in facebook https://www.facebook.com/vmiqueias
 
 # Trash
 - XDreamms is just a kid stealing, disrespecting the source owner.

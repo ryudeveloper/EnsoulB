@@ -61,7 +61,7 @@ namespace RyusungAIO.Champions
             r = new Spell(SpellSlot.R, 900);
             q.SetSkillshot(0.25f, 25, 1600, true, SkillshotType.Line);
 
-            config = new Menu("kayle", "RY.Kayle", true);
+            config = new Menu("kayle", "Ryusung.Kayle", true);
             Menu combo = new Menu("combo", "Combo");
             combo.Add(qcombo);
             combo.Add(wcombo);

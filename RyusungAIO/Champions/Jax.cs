@@ -28,7 +28,7 @@ namespace RyusungAIO.Champions
 
         public Jax()
         {
-            Notifications.Add(new Notification("Ryusung AIO fuck WWapper", "Jax credit Soresu"));
+            Notifications.Add(new Notification("Dao Hung AIO fuck WWapper", "Jax credit Soresu"));
             InitJax();
             InitMenu();
             //Game.PrintChat("<font color='#9933FF'>Soresu </font><font color='#FFFFFF'>- Jax</font>");
@@ -388,7 +388,7 @@ namespace RyusungAIO.Champions
 
         private void InitMenu()
         {
-            config = new Menu("Jax ", "RY.Jax", true);         
+            config = new Menu("Jax ", "Ryusung.Jax", true);         
             // Draw settings
             Menu menuD = new Menu("dsettings", "Drawings ");
             menuD.Add(new MenuBool("drawqq", "Draw Q range", true));

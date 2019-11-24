@@ -53,7 +53,7 @@ namespace RyusungAIO.Champions
             e.SetSkillshot(.25f, 200, 1200, false, SkillshotType.Line);
             r.SetTargetted(0, float.MaxValue);
 
-            menu = new Menu("Mordekaiser", "RY.Mordekaiser", true);
+            menu = new Menu("Mordekaiser", "Ryusung.Mordekaiser", true);
             combo = new Menu("Combo", "Combo");
             harass = new Menu("Harass", "Harass");
             farm = new Menu("farm", "Farm");

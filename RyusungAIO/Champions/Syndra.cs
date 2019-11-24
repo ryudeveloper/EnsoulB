@@ -44,7 +44,7 @@ namespace RyusungAIO.Champions
 
         public Syndra()
         {
-            Notifications.Add(new Notification("Ryusung AIO fuck WWapper", "Syndra credit Kortatu"));
+            Notifications.Add(new Notification("Dao Hung AIO fuck WWapper", "Syndra credit Kortatu"));
 
             Player = ObjectManager.Player;
 
@@ -70,7 +70,7 @@ namespace RyusungAIO.Champions
             SpellList.Add(R);
 
             //Create the menu
-            Config = new Menu(ChampionName, "RY." + ChampionName, true);
+            Config = new Menu(ChampionName, "Ryusung." + ChampionName, true);
 
 
             //AssassinManager = new AssassinManager();
@@ -190,7 +190,7 @@ namespace RyusungAIO.Champions
             Interrupter.OnInterrupterSpell += InterrupterSpellHandler;
 
             Drawing.OnDraw += Drawing_OnDraw;
-            Game.Print("<font color=\"#FF9900\"><b>RY.Syndra:</b></font> Feedback send to facebook yts.1996 Sayuto");
+            Game.Print("<font color=\"#FF9900\"><b>Ryusung.Syndra:</b></font> Feedback send to facebook yts.1996 Sayuto");
             Game.Print("<font color=\"#FF9900\"><b>Credits: Kortatu</b></font>");
         }
 

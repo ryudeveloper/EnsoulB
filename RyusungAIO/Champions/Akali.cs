@@ -136,7 +136,7 @@ namespace RyusungAIO.Champions
 
         private static void CreateMenu()
         {
-            _menu = new Menu("kdaakali", "RY.Akali credit Putao(Author of KDA akali)", true);
+            _menu = new Menu("kdaakali", "Ryusung.Akali credit Putao(Author of KDA akali)", true);
             var _combat = new Menu("kdacombat", "[Combo] Settings");
             var _harass = new Menu("kdaharass", "[Harass] Settings");
             var _farm = new Menu("kdafarm", "[Farm] Settings");

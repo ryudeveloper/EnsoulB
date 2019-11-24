@@ -45,7 +45,7 @@ namespace RyusungAIO.Champions
 
         private static Items.Item Tiamat, Hydra, Youmuu, Titanic, Seraph, Sheen, Iceborn, Trinity;
         private static SpellSlot Flash, Smite, Ignite;
-        private static Menu YasuoConfig = new Menu("Yasuo", "RY.Yasuo credit BrainSharp", true);
+        private static Menu YasuoConfig = new Menu("Yasuo", "Ryusung.Yasuo credit BrainSharp", true);
 
         private static Menu Combo = new Menu("Combo", "Combo");
         private static MenuBool QCombo = new MenuBool("Q", "Use Q");

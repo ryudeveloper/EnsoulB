@@ -51,7 +51,7 @@ namespace RyusungAIO.Champions
             R.SetSkillshot(0.25f, 45, 1600, false, false, SkillshotType.Cone);
             R.MinHitChance = HitChance.Medium;
 
-            Menu = new Menu("RY." + Player.CharacterName, "RY." + Player.CharacterName, true);
+            Menu = new Menu("Ryusung." + Player.CharacterName, "Ryusung." + Player.CharacterName, true);
             Menu.Add(new MenuKeyBind("Burst", "Burst", Keys.T, KeyBindType.Press));
             Menu.Add(new MenuKeyBind("FastHarass", "FastHarass", Keys.V, KeyBindType.Press));
             //Menu orbwalkerMenu = new Menu("Orbwalker", "Orbwalker");
@@ -60,7 +60,7 @@ namespace RyusungAIO.Champions
             spellMenu.Add(new MenuBool("RcomboKillable", "RcomboKillable"));
             spellMenu.Add(new MenuBool("R2comboKS", "R2comboKS"));
             spellMenu.Add(new MenuBool("R2comboMaxdmg", "RcomboMaxdmg"));
-            //spellMenu.Add(new MenuBool("R2ryusungStyle", "R2 ryusung Style"));
+            //spellMenu.Add(new MenuBool("R2BadaoStyle", "R2 Badao Style"));
             spellMenu.Add(new MenuBool("Ecombo", "Ecombo"));
             spellMenu.Add(new MenuBool("QGap", "Q Gap", false));
             spellMenu.Add(new MenuBool("UseQBeforeExpiry", "Use Q Before Expiry"));
@@ -111,7 +111,7 @@ namespace RyusungAIO.Champions
                     {
                         CastItem();
                     }
-                    //else if (R2ryusungStyle && R.IsReady() && R.Instance.Name == R2name && Qstate == 3)
+                    //else if (R2BadaoStyle && R.IsReady() && R.Instance.Name == R2name && Qstate == 3)
                     //{
                     //    if (target is AIBaseClient)
                     //    {
@@ -293,7 +293,7 @@ namespace RyusungAIO.Champions
         private static bool RcomboKillable { get { return Menu["Spells"].GetValue<MenuBool>("RcomboKillable"); } }
         private static bool R2comboKS { get { return Menu["Spells"].GetValue<MenuBool>("R2comboKS"); } }
         private static bool R2comboMaxdmg { get { return Menu["Spells"].GetValue<MenuBool>("R2comboMaxdmg"); } }
-        //private static bool R2ryusungStyle { get { return Menu["Spells"].GetValue<MenuBool>("R2ryusungStyle"); } }
+        //private static bool R2BadaoStyle { get { return Menu["Spells"].GetValue<MenuBool>("R2BadaoStyle"); } }
         private static bool Ecombo { get { return Menu["Spells"].GetValue<MenuBool>("Ecombo"); } }
         private static bool QGap { get { return Menu["Spells"].GetValue<MenuBool>("QGap"); } }
         private static bool UseQBeforeExpiry { get { return Menu["Spells"].GetValue<MenuBool>("UseQBeforeExpiry"); } }
@@ -591,7 +591,7 @@ namespace RyusungAIO.Champions
                             return;
                         }
                     }
-                    //if (R2ryusungStyle && !Q.IsReady())
+                    //if (R2BadaoStyle && !Q.IsReady())
                     //{
                     //    var target = TargetSelector.GetTarget(R.Range);
                     //    if (target.IsValidTarget() && !target.IsDead)

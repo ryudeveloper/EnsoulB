@@ -73,7 +73,7 @@ namespace RyusungAIO.Champions
             abilitySequence = new int[] { 1, 3, 1, 2, 1, 4, 1, 3, 1, 3, 4, 3, 3, 2, 2, 4, 2, 2 };
 
 
-            Config = new Menu("RY.Ekko credit EloFactory", ChampionName + " By LuNi", true);
+            Config = new Menu("Ryusung.Ekko credit EloFactory", ChampionName + " By LuNi", true);
 
             Config.AddSubMenu(new Menu("Orbwalking", "Orbwalking"));
 

@@ -22,7 +22,7 @@ namespace RyusungAIO.Champions
 
         public KogMaw()
         {
-            Notifications.Add(new Notification("Ryusung AIO fuck WWapper", "KogMaw credit Sebby"));
+            Notifications.Add(new Notification("Dao Hung AIO fuck WWapper", "KogMaw credit Sebby"));
             Q = new Spell(SpellSlot.Q, 980);
             W = new Spell(SpellSlot.W, 1000);
             E = new Spell(SpellSlot.E, 1200);
@@ -32,7 +32,7 @@ namespace RyusungAIO.Champions
             E.SetSkillshot(0.25f, 120f, 1400f, false, false, SkillshotType.Line);
             R.SetSkillshot(1.2f, 120f, float.MaxValue, false, false, SkillshotType.Circle);
 
-            Config = new Menu("Kogmaw", "RY.Kog'Maw", true);
+            Config = new Menu("Kogmaw", "Ryusung.Kog'Maw", true);
             Menu QConfig = new Menu("QConfig", "QConfig");
             Menu WConfig = new Menu("WConfig", "WConfig");
             Menu EConfig = new Menu("EConfig", "EConfig");

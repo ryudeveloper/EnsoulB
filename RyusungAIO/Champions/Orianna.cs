@@ -87,7 +87,7 @@ namespace RyusungAIO.Champions
         public static void initOrianna()
         {
 
-            Notifications.Add(new Notification("Ryusung AIO fuck WWapper", "Orianna credits Kortatu and XSalice"));
+            Notifications.Add(new Notification("Dao Hung AIO fuck WWapper", "Orianna credits Kortatu and XSalice"));
             Player = ObjectManager.Player;
 
             if (Player.CharacterName != ChampionName) return;
@@ -103,7 +103,7 @@ namespace RyusungAIO.Champions
             R.SetSkillshot(0.6f, 375f, float.MaxValue, false, false, SkillshotType.Circle);
 
 
-            Config = new Menu(ChampionName, "[RY]" + ChampionName, true);
+            Config = new Menu(ChampionName, "[Ryusung]" + ChampionName, true);
 
             #region Combo
             Menu combo = new Menu("Combo", "Combo");
@@ -198,7 +198,7 @@ namespace RyusungAIO.Champions
             AIHeroClient.OnProcessSpellCast += AIBaseClientProcessSpellCast;
             Interrupter.OnInterrupterSpell += Interrupter2_OnInterruptableTarget;
 
-            Game.Print("<font color=\"#FF9900\"><b>RY.Oriana:</b></font> Feedback send to facebook yts.1996 Sayuto");
+            Game.Print("<font color=\"#FF9900\"><b>Ryusung.Oriana:</b></font> Feedback send to facebook yts.1996 Sayuto");
             Game.Print("<font color=\"#FF9900\"><b>Credits: Kortatu and XSalice</b></font>");
         }
         private static void Game_OnWndProc(GameWndProcEventArgs args)

@@ -53,7 +53,7 @@ namespace RyusungAIO.Champions
             SettingupSmite();
             _ignite = Player.GetSpellSlot("summonerdot");
 
-            _menu = new Menu(Player.CharacterName, "RY." + Player.CharacterName + "Credits Kyon",  true);
+            _menu = new Menu(Player.CharacterName, "Ryusung." + Player.CharacterName + "Credits Kyon",  true);
 
 
             Menu combo = _menu.AddSubMenu(new Menu("combo", "combo"));

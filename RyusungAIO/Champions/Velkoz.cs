@@ -43,7 +43,7 @@ namespace RyusungAIO.Champions
         public Velkoz()
         {
 
-            Notifications.Add(new Notification("Ryusung AIO fuck WWapper", "Velkoz credit Kortatu"));
+            Notifications.Add(new Notification("Dao Hung AIO fuck WWapper", "Velkoz credit Kortatu"));
             Player = ObjectManager.Player;
 
             if (Player.CharacterName != ChampionName) return;
@@ -71,7 +71,7 @@ namespace RyusungAIO.Champions
             SpellList.Add(R);
 
             //Create the menu
-            Config = new Menu(ChampionName, "RY.Velkoz", true);
+            Config = new Menu(ChampionName, "Ryusung.Velkoz", true);
 
             //Combo menu:
             var Combo = new Menu("Combo", "Combo");
@@ -139,7 +139,7 @@ namespace RyusungAIO.Champions
             Interrupter.OnInterrupterSpell += InterrupterSpellHandler;
             GameObject.OnCreate += Obj_SpellMissile_OnCreate;
             Spellbook.OnUpdateChargedSpell += SpellbookUpdateChargeableSpell;
-            Game.Print("<font color=\"#FF9900\"><b>RY.Velkoz:</b></font> Feedback send to facebook yts.1996 Sayuto");
+            Game.Print("<font color=\"#FF9900\"><b>Ryusung.Velkoz:</b></font> Feedback send to facebook yts.1996 Sayuto");
             Game.Print("<font color=\"#FF9900\"><b>Credits: Kortatu</b></font>");
         }
 

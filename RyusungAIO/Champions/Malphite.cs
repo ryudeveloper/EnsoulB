@@ -20,7 +20,7 @@ namespace RyusungAIO.Champions
 
         public Malphite()
         {
-            Notifications.Add(new Notification("Ryusung AIO fuck WWapper", "Malphite"));
+            Notifications.Add(new Notification("Dao Hung AIO fuck WWapper", "Malphite"));
             InitMal();
             InitMenu();
             //Game.PrintChat("<font color='#9933FF'>Soresu </font><font color='#FFFFFF'>- Garen</font>");
@@ -148,7 +148,7 @@ namespace RyusungAIO.Champions
 
         private void InitMenu()
         {
-            config = new Menu("Malphite", "RY.Malphite", true);
+            config = new Menu("Malphite", "Ryusung.Malphite", true);
 
             // Draw settings
             config.Add(new MenuBool("noti", "Select target before all in"));

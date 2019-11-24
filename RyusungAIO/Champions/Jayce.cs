@@ -80,13 +80,13 @@ namespace RyusungAIO.Champions
 
         public Jayce()
         {
-            Notifications.Add(new Notification("Ryusung AIO fuck WWapper", "Jayce credit  Detusk"));
+            Notifications.Add(new Notification("Dao Hung AIO fuck WWapper", "Jayce credit  Detusk"));
 
             setSkillShots();
             try
             {
 
-                Config = new Menu("Jayce", "RY.Jayce", true);
+                Config = new Menu("Jayce", "Ryusung.Jayce", true);
                 //Combo
                 var combo = new Menu("combo", "Combo Sharp");
                 combo.Add(new MenuSlider("HitChanceQ", "Q hitchance", 2, 1, 4));
@@ -135,14 +135,14 @@ namespace RyusungAIO.Champions
                 Interrupter.OnInterrupterSpell += InterrupterSpellHandler;
                 //SmoothMouse.start();
 
-                Game.Print("<font color=\"#05FAAC\"><b>RY.Jayce:</b></font> Feedback send to facebook yts.1996 Sayuto");
+                Game.Print("<font color=\"#05FAAC\"><b>Ryusung.Jayce:</b></font> Feedback send to facebook yts.1996 Sayuto");
                 Game.Print("<font color=\"#FF9900\"><b>Credits: Detuks</b></font>");
                 Game.Print("<font color=\"#FA053D\"><b>Notice: This script not include Farm/JungClear</b></font>");
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex);
-                Game.Print("Oops. Something went wrong with RY.Jayce");
+                Game.Print("Oops. Something went wrong with Ryusung.Jayce");
             }
 
         }

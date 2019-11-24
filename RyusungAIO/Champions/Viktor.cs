@@ -118,9 +118,9 @@ namespace RyusungAIO.Champions
             {
                 var distance = player.Distance(minion);
                 var t = 250 + (int)distance / 2;
-                var preRYealth = HealthPrediction.GetPrediction(minion, t, 0);
-                // Console.WriteLine(" Distance: " + distance + " timer : " + t + " health: " + preRYealth);
-                if (preRYealth > 0 && Q.IsKillable(minion))
+                var preRyusungealth = HealthPrediction.GetPrediction(minion, t, 0);
+                // Console.WriteLine(" Distance: " + distance + " timer : " + t + " health: " + preRyusungealth);
+                if (preRyusungealth > 0 && Q.IsKillable(minion))
                 {
                     Q.Cast(minion);
                 }
@@ -818,7 +818,7 @@ namespace RyusungAIO.Champions
         private void SetupMenu()
         {
 
-            menu = new Menu("Viktor", "RY.Viktor credit Vasilyi", true);
+            menu = new Menu("Viktor", "Ryusung.Viktor credit Vasilyi", true);
             // Combo
             var targetSelectorMenu = new Menu("Target Selector", "Target Selector");
             var subMenu = menu.AddSubMenu(new Menu("Combo", "Combo"));

@@ -20,7 +20,7 @@ namespace RyusungAIO.Champions
     {
         public Khazix()
         {
-            Notifications.Add(new Notification("Ryusung AIO fuck WWapper", "Khazix credit Seph"));
+            Notifications.Add(new Notification("Dao Hung AIO fuck WWapper", "Khazix credit Seph"));
             Init();
             GenerateMenu(this);
             EnsoulSharp.SDK.Events.Tick.OnTick += OnUpdate;
@@ -1054,7 +1054,7 @@ namespace RyusungAIO.Champions
         public KhazixMenu(Khazix k6)
         {
             K6 = k6;
-            menu = new Menu("Khazix", "RY.Kha'Zix", true);
+            menu = new Menu("Khazix", "Ryusung.Kha'Zix", true);
 
             //Harass
             var harass = menu.AddSubMenu("Harass");

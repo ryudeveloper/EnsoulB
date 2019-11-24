@@ -32,7 +32,7 @@ namespace RyusungAIO.Champions
 
         private static void CreateMenu()
         {
-            Menu = new Menu("Fizz", "RY.Fizz", true);
+            Menu = new Menu("Fizz", "Ryusung.Fizz", true);
 
             // Combo
             var comboMenu = new Menu("Combo", "Combo");
@@ -88,7 +88,7 @@ namespace RyusungAIO.Champions
         public Fizz()
         {
 
-            Notifications.Add(new Notification("Ryusung AIO fuck WWapper", "Fizz credit ChewyMoon"));
+            Notifications.Add(new Notification("Dao Hung AIO fuck WWapper", "Fizz credit ChewyMoon"));
             Q = new Spell(SpellSlot.Q, 550);
             W = new Spell(SpellSlot.W, Player.GetRealAutoAttackRange());
             E = new Spell(SpellSlot.E, 400);

@@ -61,7 +61,7 @@ namespace RyusungAIO.Champions
                             where hero.IsEnemy == true
                             select hero;
                 // Just menu things test
-                _config = new Menu("Zed", "RY.Zed", true);
+                _config = new Menu("Zed", "Ryusung.Zed", true);
 
 
                 //Combo

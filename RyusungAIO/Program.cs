@@ -58,7 +58,7 @@ namespace RyusungAIO
                 //pred = new Menu("spred", "Prediction settings");
                 //SPrediction.Prediction.Initialize(pred);
                 SPredictionMenu = SPrediction.Prediction.Initialize(); //new Menu("SPREDX", "SPrediction");
-                Game.Print("<font color=\"#05FAAC\"><b>XDreamms is just a kid stealing, disrespecting the source owner</b></font>");
+                Game.Print("<font color=\"#05FAAC\"><b>If there are errors add me in the discord! Ryusung#6383</b></font>");
                 Game.Print("<font color=\"#f54242\"><b>HappyMajor is son of bitch trying destroy discord ensoul</b></font>");
                 //SPredictionMenu.Attach();
                 //set default to common prediction
@@ -193,6 +193,9 @@ namespace RyusungAIO
                         break;
                     case "Tristana":
                         new Tristana();
+                        break;
+                    case "Twitch":
+                        new Twitch();
                         break;
                     case "Varus":
                         new Varus();

@@ -802,12 +802,12 @@ namespace RyusungAIO.Champions
 
         private static void CreateMenu()
         {
-            _menu = new Menu("RYqiyana", "RY.Qiyana(Early Beta)", true);
-            var _combat = new Menu("RY_qiyana_combat", "[Combo] Settings");
-            var _harass = new Menu("RY_qiyana_harrass", "[Harass] Settings");
-            var _farm = new Menu("RY_qiyana_farm", "[Farm] Settings");
-            var _misc = new Menu("RY_qiyana_misc", "[Misc] Settings");
-            var _draw = new Menu("RY_qiyana_draw", "[Draw] Settings");
+            _menu = new Menu("Ryusungqiyana", "Ryusung.Qiyana(Early Beta)", true);
+            var _combat = new Menu("Ryusung_qiyana_combat", "[Combo] Settings");
+            var _harass = new Menu("Ryusung_qiyana_harrass", "[Harass] Settings");
+            var _farm = new Menu("Ryusung_qiyana_farm", "[Farm] Settings");
+            var _misc = new Menu("Ryusung_qiyana_misc", "[Misc] Settings");
+            var _draw = new Menu("Ryusung_qiyana_draw", "[Draw] Settings");
             _combat.Add(Qcombo);
             _combat.Add(Wcombo);
             _combat.Add(Wsave);

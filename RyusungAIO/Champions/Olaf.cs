@@ -235,7 +235,7 @@ namespace RyusungAIO.Champions
                     };
 
             /* [ Menus ] */
-            Config = new Menu(CharacterName, "RY.Olaf credit xQxCPMxQx", true);
+            Config = new Menu(CharacterName, "Ryusung.Olaf credit xQxCPMxQx", true);
 
             /* [ Target Selector ] */
 

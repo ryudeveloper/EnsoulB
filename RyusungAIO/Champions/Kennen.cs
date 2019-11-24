@@ -406,7 +406,7 @@ namespace RyusungAIO.Champions
 
         private void InitMenu()
         {
-            config = new Menu("Kennen", "RY.Kennen", true);
+            config = new Menu("Kennen", "Ryusung.Kennen", true);
 
             // Draw settings
             Menu menuD = new Menu("Drawings", "Drawings");
@@ -465,7 +465,7 @@ namespace RyusungAIO.Champions
             config.Add(new MenuBool("Credit", "Credit: Soresu"));
             config.Attach();
 
-            Notifications.Add(new Notification("Ryusung AIO fuck WWapper", "Kennen credit Soresu"));
+            Notifications.Add(new Notification("Dao Hung AIO fuck WWapper", "Kennen credit Soresu"));
         }
     }
 }

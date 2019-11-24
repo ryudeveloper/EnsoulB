@@ -97,7 +97,7 @@ namespace RyusungAIO.Champions
         //}
         private static void OnMenuLoad()
         {
-            Menu = new Menu("Lucian", "RY.Lucian", true);
+            Menu = new Menu("Lucian", "Ryusung.Lucian", true);
             Notifications.Add(new Notification("Dao Hung AIO", "Lucian credit Hoola and Fuck you WWapper"));
             var Combo = new Menu("Combo", "Combo");
             Combo.Add(new MenuBool("CQ", "Use Q"));

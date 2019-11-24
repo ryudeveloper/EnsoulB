@@ -41,7 +41,7 @@ namespace RyusungAIO.Champions
         public Jhin()
         {
 
-            Notifications.Add(new Notification("Ryusung AIO fuck WWapper", "Jhin credit Sebby"));
+            Notifications.Add(new Notification("Dao Hung AIO fuck WWapper", "Jhin credit Sebby"));
             Q = new Spell(SpellSlot.Q, 600);
             W = new Spell(SpellSlot.W, 2500);
             E = new Spell(SpellSlot.E, 760);
@@ -51,7 +51,7 @@ namespace RyusungAIO.Champions
             E.SetSkillshot(1f, 120, 1600, false, false, SkillshotType.Circle);
             R.SetSkillshot(0.24f, 80, 5000, false, false, SkillshotType.Line);
 
-            Config = new Menu("Jhin", "RY.Jhin", true);
+            Config = new Menu("Jhin", "Ryusung.Jhin", true);
             Menu QConfig = new Menu("QConfig", "QConfig");
             Menu WConfig = new Menu("WConfig", "WConfig");
             Menu EConfig = new Menu("EConfig", "EConfig");

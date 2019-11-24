@@ -35,7 +35,7 @@ namespace RyusungAIO.Champions
         public Ryze()
         {
 
-            Notifications.Add(new Notification("Ryusung AIO fuck WWapper", "Ryze credit my brain"));
+            Notifications.Add(new Notification("Dao Hung AIO fuck WWapper", "Ryze credit my brain"));
             Player = ObjectManager.Player;
 
 
@@ -45,7 +45,7 @@ namespace RyusungAIO.Champions
             R = new Spell(SpellSlot.R, 1750f);
             Q.SetSkillshot(0.25f, 55f, 700f, true, false, SkillshotType.Line);
 
-            Config = new Menu(ChampionName, "[RY]" + ChampionName, true);
+            Config = new Menu(ChampionName, "[Ryusung]" + ChampionName, true);
 
             #region Combo
             Menu combo = new Menu("Combo", "Combo");
@@ -114,7 +114,7 @@ namespace RyusungAIO.Champions
             //AIHeroClient.OnProcessSpellCast += AIBaseClientProcessSpellCast;
             Gapcloser.OnGapcloser += AntiGapcloser_OnEnemyGapcloser;
 
-            Game.Print("<font color=\"#FF9900\"><b>RY.Ryze</b></font> Author Sayuto");
+            Game.Print("<font color=\"#FF9900\"><b>Ryusung.Ryze</b></font> Author Sayuto");
             Game.Print("<font color=\"#FF9900\"><b>Feedback send to facebook yts.1996 </b></font>");
         }
         private static void Game_OnWndProc(GameWndProcEventArgs args)

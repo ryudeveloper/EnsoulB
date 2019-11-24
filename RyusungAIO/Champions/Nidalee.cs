@@ -46,7 +46,7 @@ namespace RyusungAIO.Champions
 
         public Nidalee()
         {
-            Notifications.Add(new Notification("Ryusung AIO fuck WWapper", "Nidalee credit Kurisu"));
+            Notifications.Add(new Notification("Dao Hung AIO fuck WWapper", "Nidalee credit Kurisu"));
 
             Javelin = new Spell(SpellSlot.Q, 1500f);
             Bushwack = new Spell(SpellSlot.W, 900f);
@@ -143,7 +143,7 @@ namespace RyusungAIO.Champions
 
         private static void NidaMenu()
         {
-            _mainMenu = new Menu("RY.Nidalee", "RY.Nidalee", true);
+            _mainMenu = new Menu("Ryusung.Nidalee", "Ryusung.Nidalee", true);
 
             var nidaKeys = new Menu("keybindongs", "Nidalee: Keys");
 
@@ -235,7 +235,7 @@ namespace RyusungAIO.Champions
 
 
             _mainMenu.Attach();
-            Game.Print("<font color=\"#FF9900\"><b>RY.Nidalee:</b></font> Anything feedback send to facebook yts.1996 Sayuto");
+            Game.Print("<font color=\"#FF9900\"><b>Ryusung.Nidalee:</b></font> Anything feedback send to facebook yts.1996 Sayuto");
             Game.Print("<font color=\"#FF9900\"><b>Credits: Kurisu</b></font>");
         }
 

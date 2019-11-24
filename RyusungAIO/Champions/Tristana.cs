@@ -27,7 +27,7 @@ namespace RyusungAIO.Champions
 
         public Tristana()
         {
-            Notifications.Add(new Notification("Ryusung AIO fuck WWapper", "Tristana credit ScienceARK"));
+            Notifications.Add(new Notification("Dao Hung AIO fuck WWapper", "Tristana credit ScienceARK"));
 
             //Ability Information - Range - Variables.
             Q = new Spell(SpellSlot.Q, 585);
@@ -40,7 +40,7 @@ namespace RyusungAIO.Champions
             R = new Spell(SpellSlot.R, 630);
 
 
-            Config = new Menu("Tristana", "RY.Tristana", true);
+            Config = new Menu("Tristana", "Ryusung.Tristana", true);
 
             //COMBOMENU
 

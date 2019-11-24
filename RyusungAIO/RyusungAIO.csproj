@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A333EAB3-1245-4843-9F06-519A6FFC800A}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>RyusungAIO</RootNamespace>
     <AssemblyName>RyusungAIO</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -51,9 +51,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="EnsoulSharp.SDK">
       <HintPath>..\..\..\EnsoulSharp\System\EnsoulSharp.SDK.dll</HintPath>
@@ -68,7 +65,7 @@
       <HintPath>..\..\..\EnsoulSharp\System\SharpDX.Direct3D9.dll</HintPath>
     </Reference>
     <Reference Include="SPrediction">
-      <HintPath>Resources\SPrediction.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\Ensoul With Source\RyusungAIO\Resources\SPrediction.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -88,6 +85,7 @@
     <Compile Include="Champions\Ahri.cs" />
     <Compile Include="Champions\Akali.cs" />
     <Compile Include="Champions\Camille.cs" />
+    <Compile Include="Champions\Twitch.cs" />
     <Compile Include="Champions\Draven.cs" />
     <Compile Include="Champions\Ekko.cs" />
     <Compile Include="Champions\Fiora.cs" />

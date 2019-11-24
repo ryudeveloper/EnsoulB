@@ -28,11 +28,11 @@ namespace RyusungAIO.Champions
 
         public Renekton()
         {
-            Notifications.Add(new Notification("Ryusung AIO fuck WWapper", "Renekton credits Soresu and Exory"));
+            Notifications.Add(new Notification("Dao Hung AIO fuck WWapper", "Renekton credits Soresu and Exory"));
             InitRenekton();
             InitMenu();
 
-            Game.Print("<font color=\"#05FAAC\"><b>RY.Renekton:</b></font> Feedback send to facebook yts.1996 Sayuto");
+            Game.Print("<font color=\"#05FAAC\"><b>Ryusung.Renekton:</b></font> Feedback send to facebook yts.1996 Sayuto");
             Game.Print("<font color=\"#FF9900\"><b>Credits: Soresu and Exory</b></font>");
             EnsoulSharp.SDK.Events.Tick.OnTick += Game_OnGameUpdate;
             Orbwalker.OnAction += OnActionDelegate;
@@ -521,7 +521,7 @@ namespace RyusungAIO.Champions
 
         private static void InitMenu()
         {
-            config = new Menu("Renekton", "RY.Renekton", true);
+            config = new Menu("Renekton", "Ryusung.Renekton", true);
 
             // Draw settings
             Menu menuD = new Menu("dsettings", "Drawings ");

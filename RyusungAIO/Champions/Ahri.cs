@@ -31,7 +31,7 @@ namespace RyusungAIO.Champions
         public Ahri()
         {
 
-            _menu = new Menu("AhriSharp", "RY.Ahri credit Beaving", true);
+            _menu = new Menu("AhriSharp", "Ryusung.Ahri credit Beaving", true);
 
             HelperAhri = new HelperAhri();
 
@@ -351,9 +351,9 @@ namespace RyusungAIO.Champions
             if (playerInfo.Player.IsVisible)
                 return playerInfo.Player.Health;
 
-            var predicteRYealth = playerInfo.Player.Health + playerInfo.Player.HPRegenRate * ((Environment.TickCount - playerInfo.LastSeen + additionalTime) / 1000f);
+            var predicteRyusungealth = playerInfo.Player.Health + playerInfo.Player.HPRegenRate * ((Environment.TickCount - playerInfo.LastSeen + additionalTime) / 1000f);
 
-            return predicteRYealth > playerInfo.Player.MaxHealth ? playerInfo.Player.MaxHealth : predicteRYealth;
+            return predicteRyusungealth > playerInfo.Player.MaxHealth ? playerInfo.Player.MaxHealth : predicteRyusungealth;
         }
 
         //public static T GetSafeMenuItem<T>(MenuItem item)

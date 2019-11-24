@@ -653,7 +653,7 @@ namespace RyusungAIO.Champions
 
         static void SetupConfig()
         {
-            RootMenu = new Menu("camille", "RY.Camille credit Kurisu", true);
+            RootMenu = new Menu("camille", "Ryusung.Camille credit Kurisu", true);
             
             var kemenu = new Menu("kemenu", "-] Keys");
             kemenu.AddItem(new MenuKeyBind("usecombo", "Combo [active]", Keys.Space, KeyBindType.Press));

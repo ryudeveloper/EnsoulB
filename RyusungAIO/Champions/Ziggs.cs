@@ -57,7 +57,7 @@ namespace RyusungAIO.Champions
             SpellList.Add(E);
             SpellList.Add(R);
 
-            Config = new Menu(ChampionName, "RY.Ziggs credit Eskor#", true);
+            Config = new Menu(ChampionName, "Ryusung.Ziggs credit Eskor#", true);
             
             Config.AddSubMenu(new Menu("Combo", "Combo"));
             Config.SubMenu("Combo").AddItem(new MenuBool("UseQCombo", "Use Q"));

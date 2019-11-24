@@ -325,7 +325,7 @@ namespace RyusungAIO.Champions
         /// </summary>
         private void CreateMenu()
         {
-            Menu = new Menu("Draven", "RY.Draven", true);
+            Menu = new Menu("Draven", "Ryusung.Draven", true);
 
 
             // Combo

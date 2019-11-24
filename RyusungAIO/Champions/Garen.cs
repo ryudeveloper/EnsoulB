@@ -17,7 +17,7 @@ namespace RyusungAIO.Champions
 
         public Garen()
         {
-            Notifications.Add(new Notification("Ryusung AIO fuck WWapper", "Garen creadit Soresu"));
+            Notifications.Add(new Notification("Dao Hung AIO fuck WWapper", "Garen creadit Soresu"));
             InitGaren();
             InitMenu();
             //Game.PrintChat("<font color='#9933FF'>Soresu </font><font color='#FFFFFF'>- Garen</font>");
@@ -280,7 +280,7 @@ namespace RyusungAIO.Champions
 
         private void InitMenu()
         {
-            config = new Menu("Garen", "RY.Garen", true);
+            config = new Menu("Garen", "Ryusung.Garen", true);
 
             // Draw settings
             Menu menuD = new Menu("Drawings", "Drawings");

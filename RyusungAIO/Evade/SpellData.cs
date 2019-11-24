@@ -29,7 +29,7 @@ namespace RyusungAIO.Evade
 
     public class SpellData
     {
-        public bool AdRYitbox;
+        public bool AdRyusungitbox;
         public bool CanBeRemoved = false;
         public bool Centered;
         public string ChampionName;
@@ -84,7 +84,7 @@ namespace RyusungAIO.Evade
             int range,
             int radius,
             int missileSpeed,
-            bool adRYitbox,
+            bool adRyusungitbox,
             bool fixedRange,
             int defaultDangerValue)
         {
@@ -97,7 +97,7 @@ namespace RyusungAIO.Evade
             Range = range;
             _radius = radius;
             MissileSpeed = missileSpeed;
-            AdRYitbox = adRYitbox;
+            AdRyusungitbox = adRyusungitbox;
             FixedRange = fixedRange;
             DangerValue = defaultDangerValue;
         }
@@ -112,7 +112,7 @@ namespace RyusungAIO.Evade
         {
             get
             {
-                return !AdRYitbox
+                return !AdRyusungitbox
                     ? _radius + EvadeManager.SkillShotsExtraRadius
                     : EvadeManager.SkillShotsExtraRadius + _radius + (int)GameObjects.AllyHeroes.FirstOrDefault(x => x.Distance(ObjectManager.Player) < RyusungAIO.Common.Champion.E.Range).BoundingRadius;
             }

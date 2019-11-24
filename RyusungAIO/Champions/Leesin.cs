@@ -83,7 +83,7 @@ namespace RyusungAIO.Champions
 
 
 
-                _config = new Menu("LeeIsBack", "RY.Lee credits JackisSharp, ChewyMoon, JQuery", true);
+                _config = new Menu("LeeIsBack", "Ryusung.Lee credits JackisSharp, ChewyMoon, JQuery", true);
 
 
 

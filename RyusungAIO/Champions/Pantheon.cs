@@ -228,7 +228,7 @@ namespace RyusungAIO.Champions
 
         private static void CreateMenu()
         {
-            _menu = new Menu("menu", "RY.Pantheon", true);
+            _menu = new Menu("menu", "Ryusung.Pantheon", true);
             var _combat = new Menu("combo", "[Combo] Settings");
             var _harass = new Menu("harass", "[Harass] Settings");
             var _farm = new Menu("farm", "[Farm] Settings");

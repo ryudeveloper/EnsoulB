@@ -3,7 +3,6 @@
 Any feedback you can send to me in facebook https://www.facebook.com/vmiqueias
 
 # Trash
-- XDreamms is just a kid stealing, disrespecting the source owner.
 
 - He uses the code of other people, from other platforms, modifies based on the Ensoul API and says that it is the script he created. It is silly.
 
